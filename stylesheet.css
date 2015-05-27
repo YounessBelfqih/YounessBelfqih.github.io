@@ -1,3 +1,7 @@
+/** {
+    border: 1px solid;
+    box-sizing: border-box;
+}*/
 body {
     font-family: "Helvetica", "Helvetica Neue", Arial, sans-serif;
 }
@@ -33,4 +37,56 @@ li {
     border-radius: 100%;
     display: inline-block;
     padding: 5px 9px;
+}
+#logo{
+    height: 95px;
+    width: 269px;
+    margin-top: 190px;
+}
+
+.middle-logo{
+    text-align:center;
+}
+
+.middle-logo fieldset{
+    width: 360px;
+    margin: 15px auto;
+    padding:0px;
+    position:relative;
+    border:0px;
+}
+.middle-logo input[type="text"]{
+    width:100%;
+    margin-bottom:10px;
+}
+
+.btn{
+    border-radius: 2px;
+    background-color: #f9f9f9;
+    border: 1px solid #CECECE;
+    padding:5px;
+}
+
+
+#mic{
+    position: absolute;
+    top: 3px;
+    right: 4px;
+}
+#mic img{
+    height:15px;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #cecece;
+}
+.right {
+    float: right;
+/*we can also leave the second UL where it is and use the following:
+position: absolute;
+bottom: 0;
+right: 0:*/
 }
